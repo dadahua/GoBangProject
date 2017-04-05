@@ -31,7 +31,9 @@ github地址：[GobangProject](https://github.com/dadahua/GoBangProject)
 
 #### 3.人机模式
 ![AI简介.png](http://upload-images.jianshu.io/upload_images/1352811-1d9630f0550e20de.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这里的AI（人工智能）比较简单，这个算法可深可浅，此项目就是比较浅的，深的可以去看[算法](http://blog.csdn.net/onezeros/article/details/5542379)，此项目AI的大体思路是：
+
 - 先便利棋盘上面的点，找到AI的棋子有活四，死四的点，既下一步能形成5个点的落子点，找到就直接在此点落子。
 
 - 如果没找到，就遍历玩家活四，或者死四的点，并在此进行落点进行防守，虽然活四没法防守。
@@ -42,6 +44,7 @@ github地址：[GobangProject](https://github.com/dadahua/GoBangProject)
 
 #### 4.人人模式
 人人连机主要用Multipeer Connectivity框架进行近场通讯，现在有黑白玩家想要连接。
+
 - 那么双方必须打开蓝牙或者连接**同一WiFi**，接着至少要有一个设备作为浏览器(browser)，用来搜寻其他设备；
 
 - 第二个设备必须是可发现的，它要声明它在这里，并且它想要与别的设备连接。换句话说，第二个设备需要宣传自己。
