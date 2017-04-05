@@ -1,0 +1,24 @@
+//
+//  Gobang.pch
+//  GoBangGraduationProject
+//
+//  Created by 刘人华 on 16/5/12.
+//  Copyright © 2016年 dahua. All rights reserved.
+//
+
+#ifndef Gobang_pch
+#define Gobang_pch
+
+/**
+ *  release不打印
+ */
+#if (!defined(DEBUG))
+#define NSLog(...)
+#endif
+
+
+#define SCREEN_H [UIScreen mainScreen].bounds.size.height
+#define SCREEN_W [UIScreen mainScreen].bounds.size.width
+#import "Config.h"
+
+#endif /* Gobang_pch */
