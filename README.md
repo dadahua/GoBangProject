@@ -3,8 +3,7 @@
 
 ### 一.项目介绍
 #### 1.地址：
-iTunes下载 ：[大华五子棋](https://itunes.apple.com/us/app/%E5%A4%A7%E5%8D%8E%E4%BA%94%E5%AD%90%E6%A3%8B/id1217483377?mt=8) (￥3.00)
-            如果对你有帮助，就请我喝杯矿泉水(苹果抽30%)。不购买也没事，这里代码和商店代码一样，还是相当于“免费”。
+iTunes下载 ：[大华五子棋](https://itunes.apple.com/us/app/%E5%A4%A7%E5%8D%8E%E4%BA%94%E5%AD%90%E6%A3%8B/id1217483377?mt=8)
 
 github地址：[https://github.com/dadahua/GoBangProject](https://github.com/dadahua/GoBangProject)
 
