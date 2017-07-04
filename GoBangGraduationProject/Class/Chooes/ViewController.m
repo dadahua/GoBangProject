@@ -25,7 +25,6 @@
     
     if (!_mcTool) {
         _mcTool = [DHMCTool tool];
-        _mcTool.delegate = self;
     }
     return _mcTool;
 }
@@ -43,6 +42,7 @@
 
 - (IBAction)twoPersonClick:(UIButton *)sender {
     
+    _mcTool.delegate = self;
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"请选择以下场景" message:@"蓝牙对战要先打开蓝牙，或者同一局域网内" delegate:sender cancelButtonTitle:@"稳一手" otherButtonTitles:@"同屏对战",@"蓝牙对战", nil];
     alert.delegate = self;
     [alert show];
